@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIO - Šta tvoja NACIJA DANAS može učiniti za tebe?</title>
+    <style>
+        :root {
+            --primary-color: #0b3c5d;
+            --secondary-color: #328cc1;
+            --gold-color: #d9b310;
+            --dark-color: #1d2731;
+            --light-color: #f9f9f9;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+
+        /* Hero Sekcija */
+        .hero {
+            background: linear-gradient(135deg, var(--dark-color) 0%, var(--primary-color) 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 5px solid var(--gold-color);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            letter-spacing: 4px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .hero .tagline {
+            font-size: 1.8rem;
+            color: var(--gold-color);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero .intro-text {
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: var(--gold-color);
+            color: var(--dark-color);
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .cta-btn:hover {
+            background-color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+
+        /* Kontejner za Module */
+        .container {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 50px;
+            font-size: 1.1rem;
+        }
+
+        /* Mreža modula */
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .module-card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--secondary-color);
+            transition: all 0.3s ease;
+        }
+
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            border-top-color: var(--gold-color);
+        }
+
+        .module-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .module-card h3 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .module-card p {
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        /* Info traka za testnu fazu */
+        .status-banner {
+            background-color: #eef7fc;
+            border-left: 5px solid var(--secondary-color);
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 100px;
+            font-size: 0.9rem;
+            border-top: 3px solid var(--primary-color);
+        }
+
+        footer p {
+            opacity: 0.7;
+        }
+
+        /* Prilagodljivost za mobilne telefone */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .hero .tagline { font-size: 1.4rem; }
+            .container { margin: 40px auto; }
+            .section-title { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Sekcija -->
+    <section class="hero">
+        <h1>NACIO</h1>
+        <div class="tagline">Šta tvoja NACIJA DANAS može učiniti za tebe?</div>
+        <p class="intro-text">
+            Dobrodošli u NACIO ekosistem – jedinstvenu digitalnu platformu koja spaja građane Bosne i Hercegovine i našu dijasporu širom svijeta kroz biznis, kulturu, druženje i međusobnu podršku.
+        </p>
+        <!-- NAPOMENA: Ovdje ćemo kasnije staviti pravi link tvoje žive aplikacije unutar href="" -->
+        <a href="#" class="cta-btn">Ulaz u ekosistem</a>
+    </section>
+
+    <!-- Glavni Sadržaj -->
+    <main class="container">
+        
+        <div class="status-banner">
+            🚀 <strong>Obavještenje:</strong> NACIO ekosistem je trenutno u fazi finalnog testiranja i pripreme za realne korisnike. Uskoro otvaramo kapije za puni pristup!
+        </div>
+
+        <h2 class="section-title">Otkrijte NACIO Ekosistem</h2>
+        <p class="section-subtitle">Deset specijalizovanih modula kreiranih da osnaže našu globalnu zajednicu.</p>
+
+        <!-- Mreža sa 10 modula -->
+        <div class="modules-grid">
+            
+            <div class="module-card">
+                <div class="module-icon">📍</div>
+                <h3>MAPA</h3>
+                <p>Gdje smo, nacijo? Pronađite naše ljude, udruženja i zajednice u svakom kutku svijeta na interaktivnoj mapi.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">👥</div>
+                <h3>NACIO KLUB</h3>
+                <p>Gdje smo bliski. Mjesto rezervisano za direktno povezivanje, razgovor, nova prijateljstva i zbližavanje našeg naroda.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">💼</div>
+                <h3>BIZNIS</h3>
+                <p>Naša nacija radi. Poslovni adresar i mreža za podršku domaćim preduzetnicima, firmama i investicijama u domovini.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">💓</div>
+                <h3>PULS</h3>
+                <p>Otkucaji naše zajednice. Pratite šta je trenutno aktuelno, učestvujte u anketama i glasajte o važnim društvenim temama.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">🏢</div>
+                <h3>UDRUŽENJA</h3>
+                <p>Dijaspora udružena. Centralni registar svih bosanskohercegovačkih klubova, saveza i organizacija širom dijaspore.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">📅</div>
+                <h3>DOGAĐAJI</h3>
+                <p>Kalendar naših susreta. Budite u toku sa svim kulturnim, sportskim i humanitarnim manifestacijama u zajednici.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">🎫</div>
+                <h3>ULAZNICE I POZIVNICE</h3>
+                <p>Koncerti i događaji. Jednostavna, brza i sigurna kupovina ulaznica za sve događaje organizovane u našoj mreži.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">📚</div>
+                <h3>NACIO MEDIA</h3>
+                <p>Digitalna riznica. Očuvanje naše bogate kulture, tradicije, istorije i uspješnih priča kroz multimedijalne sadržaje.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">🎭</div>
+                <h3>SLOBODNA SCENA</h3>
+                <p>Demokratska kreativna bina. Otvoreni prostor za bh. umjetnike, pisce, stvaraoce i prezentaciju njihove kreativnosti.</p>
+            </div>
+
+            <div class="module-card">
+                <div class="module-icon">🎥</div>
+                <h3>NACIO LIVE</h3>
+                <p>Streaming uživo iz zajednice. Pratite ključne događaje, panele, manifestacije i susrete u realnom vremenu direktno na ekranu.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 NACIO Ekosistem (nacio.ba). Sva prava zadržana.</p>
+        <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.5;">Kreirano s ponosom za našu zajednicu širom svijeta.</p>
+    </footer>
+
+</body>
+</html>
